@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    
+    <sftpGet2>
+        
+        <general>
+            <value id="title" encrypted="no">SFTP Get from SFTP Server</value>
+            <value id="emailEnabled" encrypted="no">false</value>
+        </general>
+        
+        <security>
+            <value id="remoteHost" encrypted="no">192.168.1.51</value>
+            <value id="remotePort" encrypted="no">22</value>
+            <value id="checkKnownHosts" encrypted="no">no</value>
+            <value id="knownHostsFile" encrypted="no">./ssh/known_hosts</value>
+            <value id="authType" encrypted="no">user password</value>
+            <value id="username" encrypted="no">testuser</value>
+            <value id="password" encrypted="no">testpassword</value>
+            <value id="privateKeyFile" encrypted="no">./ssh/sftpSend</value>
+            <value id="privateKeyPasswordProtected" encrypted="no">no</value>
+            <value id="privateKeyPassword" encrypted="no"/>      
+        </security>
+        
+        <source>
+            <value id="remoteDir" encrypted="no">/My Remote Folder/</value>
+            <value id="remoteFileMask" encrypted="no">.xml</value>
+            <value id="pollFrequencySeconds" encrypted="no">20000</value>
+        </source>
+        
+        <destination>
+            <value id="localDir" encrypted="no">./get/</value>
+            <value id="localFileMask" encrypted="no">*.xml</value>
+            <value id="backupDir" encrypted="no">./get/backup/</value>
+            <value id="tempFileExtension" encrypted="no">.tmp</value>
+        </destination>
+        
+        
+        
+    </sftpGet2>
+    
+    
+</config>
