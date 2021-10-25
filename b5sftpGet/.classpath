@@ -19,7 +19,7 @@
 	<classpathentry kind="lib" path="lib/app/slf4j-simple-1.7.32.jar"/>
 	<classpathentry kind="lib" path="lib/app/sshj-0.32.0.jar" sourcepath="/Users/dave/Commander4j/workspace.development/sftpGet/lib/source/sshj-0.31.0-sources.jar">
 		<attributes>
-			<attribute name="javadoc_location" value="jar:platform:/resource/sftpGet/lib/javadoc/sshj-0.31.0-javadoc.jar!/"/>
+			<attribute name="javadoc_location" value="jar:platform:/resource/sftpGet/lib/javadoc/sshj-0.32.0-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="lib/devonly/i4jruntime.jar"/>
