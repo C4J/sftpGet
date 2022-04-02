@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<install4j version="9.0.5" transformSequenceNumber="9">
+<install4j version="9.0.6" transformSequenceNumber="9">
   <directoryPresets config="../../Distribution/java11/b5sftpGet" />
-  <application name="SFTP Get" applicationId="6829-8287-2836-5470" mediaDir="../../../Distribution/java11/b5sftpGet" shortName="sftpGet" publisher="David Garratt" publisherWeb="https://www.commander4j.com" version="1.23" allPathsRelative="true" macVolumeId="7e8a68a2fd94926b" javaMinVersion="11" javaMaxVersion="11" jdkMode="jdk" jdkName="JDK 1.8">
-    <jreBundles jdkProviderId="Zulu" release="11/11.0.14" />
+  <application name="SFTP Get" applicationId="6829-8287-2836-5470" mediaDir="../../../Distribution/java11/b5sftpGet" shortName="sftpGet" publisher="David Garratt" publisherWeb="https://www.commander4j.com" version="3.20" allPathsRelative="true" macVolumeId="7e8a68a2fd94926b" javaMinVersion="11" javaMaxVersion="11" jdkMode="jdk" jdkName="JDK 1.8">
+    <jreBundles jdkProviderId="Zulu" release="11/11.0.14.1" />
   </application>
   <files globalExcludeSuffixes="dirClean.ok,.DS_Store" preserveSymlinks="false">
     <mountPoints>
