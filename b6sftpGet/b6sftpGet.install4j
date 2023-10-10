@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <install4j version="10.0.6" transformSequenceNumber="10">
   <directoryPresets config="./Images/icons/SFTP_Get_Icons" />
-  <application name="SFTP Get" applicationId="6829-8287-2836-5470" mediaDir="../../../Distribution/java17/b6sftpGet" shortName="sftpGet" publisher="David Garratt" publisherWeb="https://www.commander4j.com" version="4.00" allPathsRelative="true" macVolumeId="7e8a68a2fd94926b" javaMinVersion="17" javaMaxVersion="17">
-    <jreBundles jdkProviderId="Zulu" release="17/latest" />
+  <application name="SFTP Get" applicationId="6829-8287-2836-5470" mediaDir="../../../Distribution/java17/b6sftpGet" shortName="sftpGet" publisher="David Garratt" publisherWeb="https://www.commander4j.com" version="4.10" allPathsRelative="true" macVolumeId="7e8a68a2fd94926b" javaMinVersion="17" javaMaxVersion="17">
+    <jreBundles jdkProviderId="Zulu" release="17/17.0.8.1" />
   </application>
   <files globalExcludeSuffixes="dirClean.ok,.DS_Store">
     <mountPoints>
@@ -47,7 +47,7 @@
   <launchers>
     <launcher name="sftpGet_Console" id="66" icnsFile="./Images/icons/SFTP_Get_Icons/MyIcon.icns">
       <executable name="sftpGet_Console" iconSet="true" iconFile="./Images/icons/SFTP_Get_Icons/icon.ico" executableDir="." redirectStderr="false" executableMode="console" />
-      <java mainClass="com.commander4j.sftp.Transfer">
+      <java mainClass="com.commander4j.sftp.Transfer" vmParameters="-Dlog4j.configurationFile=./xml/config/log4j2.xml -Dfile.encoding=Cp1252">
         <classPath>
           <archive location="sftpGet.jar" failOnError="false" />
           <directory location="lib/app" failOnError="false" />
@@ -64,7 +64,7 @@
     </launcher>
     <launcher name="sftpGet_Service" id="69" icnsFile="./Images/icons/SFTP_Get_Icons/MyIcon.icns">
       <executable name="sftpGet_Service" iconSet="true" iconFile="./Images/icons/SFTP_Get_Icons/icon.ico" executableDir="." redirectStderr="false" executableMode="service" />
-      <java mainClass="com.commander4j.sftp.Transfer">
+      <java mainClass="com.commander4j.sftp.Transfer" vmParameters="-Dlog4j.configurationFile=./xml/config/log4j2.xml -Dfile.encoding=Cp1252">
         <classPath>
           <archive location="sftpGet.jar" failOnError="false" />
           <directory location="lib/app" failOnError="false" />
@@ -81,7 +81,7 @@
     </launcher>
     <launcher name="sftpGet_Service1" id="480" icnsFile="./Images/icons/SFTP_Get_Icons/MyIcon.icns">
       <executable name="sftpGet_Service1" iconSet="true" iconFile="./Images/icons/SFTP_Get_Icons/icon.ico" executableDir="." redirectStderr="false" executableMode="service" />
-      <java mainClass="com.commander4j.sftp.Transfer">
+      <java mainClass="com.commander4j.sftp.Transfer" vmParameters="-Dlog4j.configurationFile=./xml/config/log4j2.xml -Dfile.encoding=Cp1252">
         <classPath>
           <archive location="sftpGet.jar" failOnError="false" />
           <directory location="lib/app" failOnError="false" />
@@ -98,7 +98,7 @@
     </launcher>
     <launcher name="sftpGet_Service2" id="478" icnsFile="./Images/icons/SFTP_Get_Icons/MyIcon.icns">
       <executable name="sftpGet_Service2" iconSet="true" iconFile="./Images/icons/SFTP_Get_Icons/icon.ico" executableDir="." redirectStderr="false" executableMode="service" />
-      <java mainClass="com.commander4j.sftp.Transfer">
+      <java mainClass="com.commander4j.sftp.Transfer" vmParameters="-Dlog4j.configurationFile=./xml/config/log4j2.xml -Dfile.encoding=Cp1252">
         <classPath>
           <archive location="sftpGet.jar" failOnError="false" />
           <directory location="lib/app" failOnError="false" />
@@ -115,7 +115,7 @@
     </launcher>
     <launcher name="sftpGet_Service3" id="688" icnsFile="./Images/icons/SFTP_Get_Icons/MyIcon.icns">
       <executable name="sftpGet_Service3" iconSet="true" iconFile="./Images/icons/SFTP_Get_Icons/icon.ico" executableDir="." redirectStderr="false" executableMode="service" />
-      <java mainClass="com.commander4j.sftp.Transfer">
+      <java mainClass="com.commander4j.sftp.Transfer" vmParameters="-Dlog4j.configurationFile=./xml/config/log4j2.xml -Dfile.encoding=Cp1252">
         <classPath>
           <archive location="sftpGet.jar" failOnError="false" />
           <directory location="lib/app" failOnError="false" />
@@ -132,7 +132,7 @@
     </launcher>
     <launcher name="EncryptData" id="271" icnsFile="./Images/icons/SFTP_Get_Icons/MyIcon.icns">
       <executable name="EncryptData" iconSet="true" iconFile="./Images/icons/SFTP_Get_Icons/icon.ico" executableDir="." redirectStderr="false" executableMode="console" />
-      <java mainClass="com.commander4j.util.EncryptData">
+      <java mainClass="com.commander4j.util.EncryptData" vmParameters="-Dlog4j.configurationFile=./xml/config/log4j2.xml -Dfile.encoding=Cp1252">
         <classPath>
           <archive location="sftpGet.jar" failOnError="false" />
           <directory location="lib/app" failOnError="false" />
