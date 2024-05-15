@@ -2,7 +2,7 @@
 <install4j version="10.0.7" transformSequenceNumber="10">
   <directoryPresets config="./Images/icons/SFTP_Get_Icons" />
   <application name="SFTP Get" applicationId="6829-8287-2836-5470" mediaDir="../../../Distribution/java17/b6sftpGet" shortName="sftpGet" publisher="David Garratt" publisherWeb="https://www.commander4j.com" version="4.10" allPathsRelative="true" macVolumeId="7e8a68a2fd94926b" javaMinVersion="17" javaMaxVersion="17">
-    <jreBundles jdkProviderId="Zulu" release="17/17.0.10" />
+    <jreBundles jdkProviderId="Zulu" release="17/17.0.11" />
   </application>
   <files globalExcludeSuffixes="dirClean.ok,.DS_Store">
     <mountPoints>
