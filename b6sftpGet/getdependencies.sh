@@ -1,0 +1,1 @@
+mvn -f b6sftpGet_pom.xml clean dependency:copy-dependencies
