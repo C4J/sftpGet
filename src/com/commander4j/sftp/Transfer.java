@@ -47,7 +47,7 @@ public class Transfer extends Thread
 	public static JUtility utils = new JUtility();
 	public static EmailQueue emailqueue = new EmailQueue();
 	public static EmailThread emailthread;
-	public static String version = "4.83";
+	public static String version = "4.84";
 	public static Long pollFrequencySeconds = (long) 0;
 
 	public static void main(String[] args)
@@ -232,9 +232,9 @@ public class Transfer extends Thread
 					logger.debug("--------------------------------------");
 					logger.debug("Looking into "+source.get("remoteDir"));
 					logger.debug("--------------------------------------");
-					
+
 					remoteDirectory = sftpClient.ls(source.get("remoteDir"));
-					
+
 					logger.debug(remoteDirectory.toString());
 
 					logger.debug(remoteDirectory.size() + " files found.");
@@ -299,7 +299,7 @@ public class Transfer extends Thread
 											{
 
 												sftpClient.get(remoteDir + remoteFilename, localDir + remoteFilename + localTempExtension);
-												
+
 												localSize = FileUtils.sizeOf(new File(localDir + remoteFilename + localTempExtension));
 
 												// See if the downloaded file is the
