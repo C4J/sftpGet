@@ -37,11 +37,6 @@
 			<type>MIT License</type>
 		</library>
 		<library>
-			<description>EdDSA</description>
-			<version>0.3.0</version>
-			<type>2-Clause BSD License</type>
-		</library>
-		<library>
 			<description>Jakarta Activation API</description>
 			<version>2.1.4</version>
 			<type>Eclipse Distribution License 1.0</type>
