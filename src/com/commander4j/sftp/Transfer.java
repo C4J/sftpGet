@@ -47,7 +47,7 @@ public class Transfer extends Thread
 	public static JUtility utils = new JUtility();
 	public static EmailQueue emailqueue = new EmailQueue();
 	public static EmailThread emailthread;
-	public static String version = "5.02";
+	public static String version = "5.03";
 	public static Long pollFrequencySeconds = (long) 0;
 
 	public static void main(String[] args)

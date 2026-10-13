@@ -33,7 +33,7 @@
 		</library>
 		<library>
 			<description>Bouncy Castle</description>
-			<version>1.84</version>
+			<version>1.86</version>
 			<type>MIT License</type>
 		</library>
 		<library>
