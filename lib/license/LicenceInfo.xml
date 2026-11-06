@@ -58,7 +58,7 @@
 		</library>
 		<library>
 			<description>SSHJ</description>
-			<version>0.40.0</version>
+			<version>0.41.2</version>
 			<type>Apache License 2.0</type>
 		</library>
 	</libraries>
